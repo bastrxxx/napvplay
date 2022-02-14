@@ -74,6 +74,11 @@ header{background: var(--whitecolor);border-bottom: 1px solid #e9e9e9;}
 				span{color:var(--color2);word-break: break-all;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow: hidden;text-overflow: ellipsis;word-wrap: break-word;}
 			}
 		}
+		.goivxu{
+			.card{
+				span.titlegame{font-weight: 600;}
+			}
+		}
 		table{
 			tr{color: var(--color3);
 				td:nth-child(2){font-weight: 500;color: var(--color2);}

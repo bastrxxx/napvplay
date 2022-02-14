@@ -204,6 +204,9 @@ header {
   text-overflow: ellipsis;
   word-wrap: break-word;
 }
+.content .maincontent .goivxu .card span.titlegame {
+  font-weight: 600;
+}
 .content .maincontent table tr {
   color: var(--color3);
 }
