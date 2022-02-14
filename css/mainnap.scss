@@ -141,16 +141,33 @@ header{background: var(--whitecolor);border-bottom: 1px solid #e9e9e9;}
 		li.slick-active button:before{color: #000;}
 	}
 }
-footer{width: 100%;display: flex;text-align: center;position: fixed;background:var(--color2);padding: 30px 0;bottom:0;left: 0;
+
+/*==HUONG DAN NAP==*/
+.slidetitlehd{
+	.slide{
+		a{height:86px;display: flex;flex-direction: column;align-items: center;justify-content: center;grid-gap:5px;
+			img{max-width: 40px;filter: drop-shadow(0px 0px 3px white);}
+			span{word-break: break-all;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow: hidden;text-overflow: ellipsis;word-break: break-word;line-height: 1.1;}
+		}
+	}
+}
+.slidehd{
+	.swiper-slide{
+		img{max-width: 100%;margin: 0 auto;display: block;}
+	}
+}
+
+footer{width: 100%;position: fixed;bottom:0;left: 0;
+	.bg-footer {background: var(--color2);padding: 30px 0 90px;text-align: center;}
 	.mainfooter{position: relative;bottom:0;
 		img{width: 100px;height: 30px;object-fit: cover;margin-bottom:25px;-webkit-filter: grayscale(100%);filter: grayscale(100%);-webkit-filter: brightness(10000%);filter: brightness(10000%);}
 		p{line-height: 1.6;color: var(--whitecolor);}
 	}
 }
+
 .nofixed{position: relative !important;}
 .dangky{
 	.formlogin{margin-top: 5%;}
-	footer{}
 }
 .thanhtoan{
 	.titlephuongthuc{display: flex;justify-content: space-between;align-items: center;align-content: center;
@@ -208,7 +225,17 @@ footer{width: 100%;display: flex;text-align: center;position: fixed;background:v
 				&:hover{filter: brightness(110%);}
 			}
 
-
+.sidebottom {
+	.bg-color {background-color: var(--whitecolor);border-top: 2px solid var(--color1);}
+	ul {list-style: none;
+		li {
+			a {color: var(--color2);font-weight: 600;display: flex;align-items: center;
+				i {background-color: var(--color1);color: var(--whitecolor);width: 26px;height: 26px;line-height: 26px;}
+				&:hover {color: var(--color1);}
+			}
+		}
+	}
+}
 
 
 
@@ -243,4 +270,12 @@ footer{width: 100%;display: flex;text-align: center;position: fixed;background:v
 	.userinfogame .container{align-items: flex-start;flex-direction: column;
 		.infogame{margin-bottom: calc(var(--spacing) / 3);}
 	}
+	.sidebottom ul li a {
+		flex-direction: column;
+		font-size: 12px;
+		i {
+		  margin-right: 0 !important;
+		  margin-bottom: 5px;
+		}
+	  }
 }
