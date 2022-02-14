@@ -143,18 +143,24 @@ header{background: var(--whitecolor);border-bottom: 1px solid #e9e9e9;}
 }
 
 /*==HUONG DAN NAP==*/
-.slidetitlehd{
+.slidetitlehd{margin-right: calc(var(--bs-gutter-x) * -.5);margin-left: calc(var(--bs-gutter-x) * -.5);
 	.slide{
-		a{height:86px;display: flex;flex-direction: column;align-items: center;justify-content: center;grid-gap:5px;
+		a{text-align: center;display: block;border: 1px solid var(--color1);margin-bottom: calc(var(--bs-gutter-x) * .5);border-radius:5px;word-break: break-all;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow: hidden;text-overflow: ellipsis;word-break: break-word;padding: 0.3rem 0.5rem;line-height: 2;margin-right: calc(var(--bs-gutter-x) * .5);margin-left: calc(var(--bs-gutter-x) * .5);background-color:var(--color1);color: var(--whitecolor);height:86px;display: flex;flex-direction: column;align-items: center;justify-content: center;grid-gap:5px;
 			img{max-width: 40px;filter: drop-shadow(0px 0px 3px white);}
 			span{word-break: break-all;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow: hidden;text-overflow: ellipsis;word-break: break-word;line-height: 1.1;}
 		}
+		a.inactive{color: var(--color2);background: var(--whitecolor);}
+	}
+	.slick-dots{bottom: -13px;
+		li button:before{color: #a7a7a7;}
+		li.slick-active button:before{color: #000;}
 	}
 }
 .slidehd{
 	.swiper-slide{
-		img{max-width: 100%;margin: 0 auto;display: block;}
+		img{max-width: 100%;margin: 0 auto;display: block;border: 1px solid #d6d6d6;}
 	}
+	.swiper-button-prev, .swiper-button-next{transform: scale(0.6);}
 }
 
 footer{width: 100%;position: fixed;bottom:0;left: 0;

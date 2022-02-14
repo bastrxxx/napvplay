@@ -397,7 +397,28 @@ header {
 }
 
 /*==HUONG DAN NAP==*/
+.slidetitlehd {
+  margin-right: calc(var(--bs-gutter-x) * -.5);
+  margin-left: calc(var(--bs-gutter-x) * -.5);
+}
 .slidetitlehd .slide a {
+  text-align: center;
+  display: block;
+  border: 1px solid var(--color1);
+  margin-bottom: calc(var(--bs-gutter-x) * .5);
+  border-radius: 5px;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  padding: 0.3rem 0.5rem;
+  line-height: 2;
+  margin-right: calc(var(--bs-gutter-x) * .5);
+  margin-left: calc(var(--bs-gutter-x) * .5);
+  background-color: var(--color1);
+  color: var(--whitecolor);
   height: 86px;
   display: flex;
   flex-direction: column;
@@ -419,11 +440,28 @@ header {
   word-break: break-word;
   line-height: 1.1;
 }
+.slidetitlehd .slide a.inactive {
+  color: var(--color2);
+  background: var(--whitecolor);
+}
+.slidetitlehd .slick-dots {
+  bottom: -13px;
+}
+.slidetitlehd .slick-dots li button:before {
+  color: #a7a7a7;
+}
+.slidetitlehd .slick-dots li.slick-active button:before {
+  color: #000;
+}
 
 .slidehd .swiper-slide img {
   max-width: 100%;
   margin: 0 auto;
   display: block;
+  border: 1px solid #d6d6d6;
+}
+.slidehd .swiper-button-prev, .slidehd .swiper-button-next {
+  transform: scale(0.6);
 }
 
 footer {
