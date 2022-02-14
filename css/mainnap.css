@@ -657,7 +657,7 @@ footer .mainfooter p {
   height: 26px;
   line-height: 26px;
 }
-.sidebottom ul li a:hover {
+.sidebottom ul li a:hover, .sidebottom ul li a.active {
   color: var(--color1);
 }
 

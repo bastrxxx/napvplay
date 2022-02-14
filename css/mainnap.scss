@@ -242,7 +242,7 @@ footer{width: 100%;position: fixed;bottom:0;left: 0;
 		li {
 			a {color: var(--color2);font-weight: 600;display: flex;align-items: center;
 				i {background-color: var(--color1);color: var(--whitecolor);width: 26px;height: 26px;line-height: 26px;}
-				&:hover {color: var(--color1);}
+				&:hover, &.active {color: var(--color1);}
 			}
 		}
 	}
