@@ -196,7 +196,6 @@ header {
 }
 .content .maincontent .tab-content .card span {
   color: var(--color2);
-  word-break: break-all;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -372,7 +371,6 @@ header {
   border: 1px solid var(--color1);
   margin-bottom: calc(var(--bs-gutter-x) * .5);
   border-radius: 5px;
-  word-break: break-all;
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
@@ -411,7 +409,6 @@ header {
   border: 1px solid var(--color1);
   margin-bottom: calc(var(--bs-gutter-x) * .5);
   border-radius: 5px;
-  word-break: break-all;
   display: -webkit-box;
   -webkit-line-clamp: 1;
   overflow: hidden;
@@ -435,7 +432,6 @@ header {
   filter: drop-shadow(0px 0px 3px white);
 }
 .slidetitlehd .slide a span {
-  word-break: break-all;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
