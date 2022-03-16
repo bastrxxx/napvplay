@@ -362,14 +362,14 @@ header {
 }
 
 .tabslide {
-  margin-right: calc(var(--bs-gutter-x) * -.5);
-  margin-left: calc(var(--bs-gutter-x) * -.5);
+  margin-right: calc(var(--bs-gutter-x) * -0.5);
+  margin-left: calc(var(--bs-gutter-x) * -0.5);
 }
 .tabslide .slide a {
   text-align: center;
   display: block;
   border: 1px solid var(--color1);
-  margin-bottom: calc(var(--bs-gutter-x) * .5);
+  margin-bottom: calc(var(--bs-gutter-x) * 0.5);
   border-radius: 5px;
   display: -webkit-box;
   -webkit-line-clamp: 1;
@@ -379,8 +379,8 @@ header {
   word-break: break-word;
   padding: 0.3rem 0.5rem;
   line-height: 2;
-  margin-right: calc(var(--bs-gutter-x) * .5);
-  margin-left: calc(var(--bs-gutter-x) * .5);
+  margin-right: calc(var(--bs-gutter-x) * 0.5);
+  margin-left: calc(var(--bs-gutter-x) * 0.5);
   background-color: var(--color1);
   color: var(--whitecolor);
 }
@@ -400,14 +400,14 @@ header {
 
 /*==HUONG DAN NAP==*/
 .slidetitlehd {
-  margin-right: calc(var(--bs-gutter-x) * -.5);
-  margin-left: calc(var(--bs-gutter-x) * -.5);
+  margin-right: calc(var(--bs-gutter-x) * -0.5);
+  margin-left: calc(var(--bs-gutter-x) * -0.5);
 }
 .slidetitlehd .slide a {
   text-align: center;
   display: block;
   border: 1px solid var(--color1);
-  margin-bottom: calc(var(--bs-gutter-x) * .5);
+  margin-bottom: calc(var(--bs-gutter-x) * 0.5);
   border-radius: 5px;
   display: -webkit-box;
   -webkit-line-clamp: 1;
@@ -416,8 +416,8 @@ header {
   word-break: break-word;
   padding: 0.3rem 0.5rem;
   line-height: 2;
-  margin-right: calc(var(--bs-gutter-x) * .5);
-  margin-left: calc(var(--bs-gutter-x) * .5);
+  margin-right: calc(var(--bs-gutter-x) * 0.5);
+  margin-left: calc(var(--bs-gutter-x) * 0.5);
   background-color: var(--color1);
   color: var(--whitecolor);
   height: 86px;
@@ -657,6 +657,28 @@ footer .mainfooter p {
 }
 .sidebottom ul li a:hover, .sidebottom ul li a.active {
   color: var(--color1);
+}
+
+.content .maincontent .tab-content .card .goicustom .anhgoicustom {
+  position: relative;
+}
+.content .maincontent .tab-content .card .goicustom .anhgoicustom span.countdowntime {
+  position: absolute;
+  top: 3px;
+  width: 100%;
+  -webkit-line-clamp: 1;
+  text-indent: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+.content .maincontent .tab-content .card .goicustom .anhgoicustom span.textmota {
+  font-size: 95%;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  line-height: 1.1;
+  color: #fff9d7;
+  text-shadow: 0px -1px 2px #3e0000, 1px 0px 3px #3e0000, 0px 1px 2px #3e0000, 0px 1px 3px #3e0000;
 }
 
 @media (max-width: 1024px) {
